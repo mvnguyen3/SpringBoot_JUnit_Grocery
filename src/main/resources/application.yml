@@ -1,0 +1,15 @@
+server:
+  port: 3000
+#database
+database:
+  driverClassName: com.mysql.cj.jdbc.Driver
+  local:
+    url: jdbc:mysql://localhost:3306/vntofudb_order?useSSL=false&createDatabaseIfNotExist=true
+    username: root
+    password: Cps38102991
+
+#hibernate
+hibernate:
+  dialect: org.hibernate.dialect.MySQL5Dialect
+  hbm2ddl.auto: update
+  show_sql: true
